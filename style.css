@@ -1,0 +1,66 @@
+/* for importing extranal font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.buttons{
+    width: 72px;
+    padding: 26px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: aqua; 
+}
+
+
+.rows{
+    margin: 5px;
+}
+
+/* for calculator display */
+.rows .input{
+    margin: 0%;
+    font-size: 25px;
+    padding: 20px 15px;
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.text-center{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/* hover offect on buttons */
+.buttons:hover {
+    box-shadow: 0px 0px 4px 4px rgb(209, 203, 203);
+    background-color: #ecf30f;
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    transform: scale(1.02);
+}
